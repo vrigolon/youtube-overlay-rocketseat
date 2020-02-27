@@ -1,4 +1,3 @@
-// const video = ["qomLSfhmZI8", "VvGU69sKkYg"]
 const videos = [
   {name: "Iniciando com Git | Diego Fernandes", id: "MW7hrQe6aYo", time: "06:26 min"},
   {name: "Criando contribuição open-source no Github do zero! | Diego Fernandes", id: "mcd7lqpUzIA", time: "42:25 min"},
@@ -37,10 +36,8 @@ const modalOverlay = document.querySelector('.modal-overlay')
 const cards = document.querySelectorAll('.card')
 
 for (let card of cards) {
-
   card.addEventListener("click", function(){
     const videoId = card.getAttribute("id")
-
     modalOverlay.classList.add('active')
     modalOverlay.querySelector("iframe").src = `https://www.youtube-nocookie.com/embed/${videoId}`
   })
