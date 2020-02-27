@@ -19,7 +19,7 @@ body {
 
 }
 header {
-  padding: 20px;
+  padding: 10px;
   border-bottom: 1px solid #333;
   background-color: var(--color-dark-rocket);
 }
@@ -53,13 +53,13 @@ header div {
   margin-top: 2vh;
   /* border: 1px solid black; */
   margin-bottom: 32px;
-  height: 250px;
+  height: 150px;
   background-color: var(--color-dark-rocket);
   padding: 50px;
 }
 
 #wrapper h1 {
-  font-size: 55px;
+  font-size: 36px;
   line-height: 52px;
   font-weight: bold;
   margin-top: 2vh;
@@ -74,7 +74,7 @@ header div {
 
 .start a{
   background-color: var(--color-green);
-  padding: 20px;
+  padding: 10px;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
